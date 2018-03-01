@@ -19,6 +19,6 @@ var Dog = mongoose.model('Dog', new mongoose.Schema({ name: String, age: Number 
 app.use(antarest([
   { path: '/cat', model: Cat },
   { path: '/dog', model: Dog }
-]))
+], { NotFoundHandler: true }))
 
 app.listen(6969)
