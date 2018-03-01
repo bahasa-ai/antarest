@@ -1,0 +1,30 @@
+{
+  "name": "antarest",
+  "version": "0.1.0",
+  "description": "Easy to build REST microservices",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahasa-ai/antarest.git"
+  },
+  "keywords": [
+    "rest",
+    "microservice"
+  ],
+  "author": "Bahasa.ai <dev@bahasa.ai> (https://bahasa.ai)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahasa-ai/antarest/issues"
+  },
+  "homepage": "https://github.com/bahasa-ai/antarest#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7"
+  }
+}
