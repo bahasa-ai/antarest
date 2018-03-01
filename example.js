@@ -16,13 +16,9 @@ app.use(bodyParser.urlencoded({ extended: true }))
 var Cat = mongoose.model('Cat', new mongoose.Schema({ name: String, age: Number }))
 var Dog = mongoose.model('Dog', new mongoose.Schema({ name: String, age: Number }))
 
-const s = antarest([
+app.use(antarest([
   { path: '/cat', model: Cat },
   { path: '/dog', model: Dog }
-])
-
-console.log(s)
-
-app.use(s)
+]))
 
 app.listen(6969)
