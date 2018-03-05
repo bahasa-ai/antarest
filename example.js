@@ -9,8 +9,8 @@ var app = express()
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
-var Cat = mongoose.model('Cat', new mongoose.Schema({ name: String, age: Number, birth: Date }))
-var Dog = mongoose.model('Dog', new mongoose.Schema({ name: String, age: Number, birth: Date }))
+var Cat = mongoose.model('Cat', new mongoose.Schema({ name: String, birth: Date }))
+var Dog = mongoose.model('Dog', new mongoose.Schema({ name: String, birth: Date }))
 
 app.use(
   antarest(
