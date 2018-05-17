@@ -5,6 +5,12 @@ __v0.1.0__:
 - Only support mongoosejs, highly-coupled inside Antarest. 
 - PUT not currently supported
 
+__v0.2.0__: 
+- Bug fixes
+
+__v0.3.0__: 
+- Support converting ObjectId string to ObjectId type as a aggregate conditions
+
 ## Installation
 ```npm install antarest```
 
