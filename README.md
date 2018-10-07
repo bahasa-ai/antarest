@@ -163,7 +163,7 @@ Set 'Content-Type' header to application/json
 Example:
 
 ```
-POST localhost:6969/cat
+POST localhost:6969/cat/search
 ```
 
 ```
@@ -209,7 +209,7 @@ Set 'Content-Type' header to application/json
 Example:
 
 ```
-POST localhost:6969/cat
+POST localhost:6969/cat/aggregate
 ```
 
 ```
